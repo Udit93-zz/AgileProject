@@ -204,6 +204,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="dinner.aspx" />
+    <Content Include="finalorder.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -403,6 +404,13 @@
     </Compile>
     <Compile Include="dinner.aspx.designer.cs">
       <DependentUpon>dinner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="finalorder.aspx.cs">
+      <DependentUpon>finalorder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="finalorder.aspx.designer.cs">
+      <DependentUpon>finalorder.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
